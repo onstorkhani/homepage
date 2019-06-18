@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+        /* unvisited link */
+        a:link {
+            color:white;
+        }
+        /* mouse over link */
+        a:hover {
+            
+            background-color: violet;
+        }
+.part1{
+    background-color: rgb(36, 33, 33) ;
+    width: 100%;
+    height: 70px;
+    display: block;
+    background-size: cover;
+    color: aliceblue;
+}
+.Info{
+ margin-top: 10px;
+    display: block;
+    float: right;
+    width: 30%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+   float: right;
+}
+.border{
+    border-radius: 20px;
+    height: 30px;
+}
+.active{
+    background-color: violet;
+    text-decoration: none;
+    border: none;
+    color: indigo;
+    padding: 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.button {
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    text-decoration: none;
+  }
+.User{
+    float: left;
+    width: 70%;
+    margin-top: 15px;
+}
+.space{
+    height: 40px;
+}
+.part2{
+    background: url(http://weraveyou.com/wp-content/uploads/2018/03/Tomorrowland.jpg);
+    height: 600px;
+    background-size: cover;
+    display: block;
+}
+.register{
+    padding: 30px;
+    margin-left: 25%;
+    color: aliceblue;
+    text-align: center;
+}
+.hr{
+    margin-top: 20px;
+    width: 600px;
+    margin-bottom: 20px;
+}
+
+.submit{
+    background-color: purple;
+    color: aliceblue;
+    border: 2px solid blueviolet;
+    width: 100px;
+    border-radius: 20px;
+    height: 30px;
+}
+.part3{
+    margin-top: 30px;
+    text-align: center;
+    height: 50px;
+}
